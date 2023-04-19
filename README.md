@@ -6,3 +6,7 @@
 >1. With your IDE, run the program.
 >2. The program will ask you to input a text, try to input: th& q!#ck br+wn f+x j!mps +v&r th& l*zy d+g
 >3. The program will decrypt the message.
+
+**Uses:**
+>- pyfiglet module - for fonts and sizes
+>- for, if, and elif statements
