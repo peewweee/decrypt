@@ -10,12 +10,22 @@ for i in range(len(user_input)):
 #   if character is "*", replace with "a"
     if user_input[i] == "*":
         decrpt_str += "a"
+#   if character is "&", replace with "e"
+    elif user_input[i] == "&":
+        decrpt_str += "e"
+#   if character is "#", replace with "i"
+    elif user_input[i] == "#":
+        decrpt_str += "i"
+#   if character is "+", replace with "o"
+    elif user_input[i] == "+":
+        decrpt_str += "o"
+#   if character is "!", replace with "u"
+    elif user_input[i] == "!":
+        decrpt_str += "u"
     else:
         decrpt_str += user_input[i]
-#   if character is "&", replace with "e"
-#   if character is "#", replace with "i"
-#   if character is "+", replace with "o"
-#   if character is "!", replace with "u"
 # print encrypted string
+print("Encrypted text: ", user_input)
 # print output decrypted string
+print("The Plain Text:")
 print(decrpt_str)
